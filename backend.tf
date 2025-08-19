@@ -1,6 +1,5 @@
 terraform {
-  backend "azurerm" {
-    access_key           = "RzvQ3PnBnXZme+LLwUzTSDrIc+IzrjpW3kmUSRRim4PfA9rbBKKXGGgOv/PLodGlQyzGGMvZ75QD+AStmwLghA=="  
+  backend "azurerm" {  
 	# Can also be set via `ARM_ACCESS_KEY` environment variable.
     storage_account_name = "terraformfirst"                                 
 	# Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
